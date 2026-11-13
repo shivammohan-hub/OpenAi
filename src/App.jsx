@@ -1,6 +1,7 @@
 import Announcements from "./components/Announcements"
 import Ask from "./components/Ask"
 import Header from "./components/Header"
+import RecentNews from "./components/RecentNews"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Ask />
       <Announcements />
+      <RecentNews />
     </div>
   )
 }

@@ -1,6 +1,6 @@
 const Ask = () => {
   return (
-    <div className="flex flex-col gap-6 items-center justify-center py-20">
+    <div className="flex flex-col gap-6 items-center justify-center py-44">
         <h2 className="text-[28px] font-[530]">What can I help with?</h2>
         <div className="flex w-1/2 shadow-[0_0_50px_rgba(0,0,0,0.05)] border-2 rounded-3xl py-4 px-5">
             <textarea placeholder="Summarize my meeting notes" className="text-[16px] w-full border-none outline-none resize-none bg-white" rows={3} name="" id=""></textarea>
