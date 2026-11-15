@@ -2,6 +2,7 @@ import Announcements from "./components/Announcements"
 import Ask from "./components/Ask"
 import Header from "./components/Header"
 import RecentNews from "./components/RecentNews"
+import Stories from "./components/Stories"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Ask />
       <Announcements />
       <RecentNews />
+      <Stories />
     </div>
   )
 }
