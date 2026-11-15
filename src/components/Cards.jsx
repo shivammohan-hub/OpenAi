@@ -1,12 +1,16 @@
-const Cards = () => {
+const Cards = (props) => {
+  let image = props.image ;
+  let heading = props.heading ;
+  let date = props.date ;
+
   return (
-    <div>
-        <div className="border p-5">
-            <img src="airtour.png" alt="" />
-            <h4>Using ChatGPT to grow ATV Big Air Tour</h4>
-            <span>Sep 9, 2026</span>
+    <>
+        <div className="">
+            <img className="rounded-lg h-[430px]" src={image} alt="" />
+            <h4 className="text-lg font-medium py-3">{heading}</h4>
+            <span className="text-slate-500 text-sm">{date}</span>
         </div>
-    </div>
+    </>
   )
 }
 
