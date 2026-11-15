@@ -1,6 +1,6 @@
 const Announcements = () => {
   return (
-    <section className="flex gap-10 px-20 pb-16">
+    <section className="flex gap-10 pb-16">
         <div className="flex-1 ">
             <a href="">
                 <img className="h-[580px] rounded-lg" src="frontier.png" alt="" />

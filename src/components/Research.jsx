@@ -2,7 +2,7 @@ import Cards from "./Cards"
 
 const Research = () => {
   return (
-    <div className="px-20 py-16">
+    <div className="py-16">
         <div className="flex justify-between items-center">
                 <h1 className="text-[20px] font-medium pb-10">Latest Research</h1>
                 <a className="text-[14px]" href="">View more</a>
